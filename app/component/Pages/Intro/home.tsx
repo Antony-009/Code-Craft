@@ -114,7 +114,7 @@ const App: React.FC = () => {
                             <div className="absolute inset-0 border border-[#00F0FF]/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </button>
                         </Link>
-                        <Link href={'./ai_algorithm/pages/mainpage'}>
+                       <Link href={'./ai_algorithm/pages/mainpage'}>
                         <button className="relative px-6 py-3 overflow-hidden group !rounded-button whitespace-nowrap backdrop-blur-sm">
                             <span className="absolute inset-0 w-0 bg-gradient-to-r from-[#00F0FF]/20 to-[#9D00FF]/20 transition-all duration-500 ease-out group-hover:w-full"></span>
                             <span className="relative flex items-center">
@@ -125,6 +125,20 @@ const App: React.FC = () => {
                             <div className="absolute inset-0 border border-[#9D00FF]/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </button>
                         </Link>
+                        <Link href="/networking_vis">
+    <button className="relative px-6 py-3 overflow-hidden group !rounded-button whitespace-nowrap backdrop-blur-sm">
+        <span className="absolute inset-0 w-0 bg-gradient-to-r from-[#00F0FF]/20 to-[#9D00FF]/20 transition-all duration-500 ease-out group-hover:w-full"></span>
+        <span className="relative flex items-center">
+            <i className="fas fa-network-wired mr-3 text-[#00F0FF] text-xl"></i>
+            <span className="bg-gradient-to-r from-[#00F0FF] to-[#9D00FF] bg-clip-text text-transparent font-bold text-lg tracking-wide">
+                Networking Visualization
+            </span>
+        </span>
+        <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-[#00F0FF] to-[#9D00FF] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <div className="absolute inset-0 border border-[#9D00FF]/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </button>
+</Link>
+
                         <Link href={'./login_signup/login'}>
                         <button
                             onClick={() => setShowLoginModal(true)}
