@@ -9,7 +9,7 @@ DialogDescription,
 DialogHeader,
 DialogTitle,
 DialogTrigger,
-} from "../components/ui/dialog";
+} from "@/components/ui/dialog";
 const App: React.FC = () => {
 const [selectedAlgorithm, setSelectedAlgorithm] = useState<string | null>(null);
 const [isLoaded, setIsLoaded] = useState(false);
