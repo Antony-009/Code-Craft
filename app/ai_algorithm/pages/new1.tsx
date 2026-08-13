@@ -468,7 +468,7 @@ onClick={() => {}}
 Info
 </Button>
 </DialogTrigger>
-<DialogContent onClose={() => {}}>
+<DialogContent> 	
 <DialogHeader>
 <DialogTitle>
   <div className={`text-2xl font-bold text-[${algorithm.color}]`}>
