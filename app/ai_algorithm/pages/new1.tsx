@@ -459,7 +459,7 @@ onClick={() => setSelectedAlgorithm(algorithm.title)}
 Access
 </Button>
 <Dialog>
-<DialogTrigger onTrigger={() => {}}>
+<DialogTrigger asChild>
 <Button
 variant="outline"
 className="!rounded-button flex-1 bg-transparent border-[#333] text-[#666] hover:bg-[#1A1A1A] hover:text-white whitespace-nowrap text-sm transition-all duration-500 transform hover:scale-105"
