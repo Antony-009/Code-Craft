@@ -180,7 +180,6 @@ const GraphVisualization: React.FC = () => {
                     animationDuration: 500,
                     animationEasing: undefined,
                     boundingBox: undefined,
-                    tile: true,
                   }}
                   cy={(cy) => {
                     console.log("Initializing Cytoscape with elements:", elements);
