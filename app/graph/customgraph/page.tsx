@@ -176,7 +176,7 @@ const GraphVisualization: React.FC = () => {
                     nestingFactor: 0.1,
                     gravity: 0.25,
                     numIter: 1000,
-                    animate: "end",
+                    animate: true,
                     animationDuration: 500,
                     animationEasing: undefined,
                     boundingBox: undefined,
