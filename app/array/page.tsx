@@ -303,7 +303,7 @@ const MainPage = () => {
     }
     alert("Target not found in the array.");
     settracki([-1]);
-    settrackj(["-1"]);
+    settrackj([-1]);
     setCurrentStep(8);
   }
 
