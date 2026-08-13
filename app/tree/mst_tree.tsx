@@ -317,16 +317,16 @@ Time Complexity:
                   cy={(cy) => {
                     cy.on("add remove", () => {
                       cy.layout({
-                        name: "dagre",
-                        rankDir: "LR",
-                        nodeSep: 120,
-                        edgeSep: 60,
-                        rankSep: 180,
-                        animate: true,
-                        animationDuration: 500,
-                        padding: 60,
-                        fit: true,
-                      }).run();
+  name: "dagre",
+  rankDir: "LR",
+  nodeSep: 120,
+  edgeSep: 60,
+  rankSep: 180,
+  animate: true,
+  animationDuration: 500,
+  padding: 60,
+  fit: true,
+} as any).run();
                     });
                   }}
                 />
