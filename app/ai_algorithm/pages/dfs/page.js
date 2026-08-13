@@ -6,7 +6,9 @@ const directions = [
   [-1, 1], [1, -1] // Hexagonal movement
 ];
 
-export default function HexMaze({ rows = 10, cols = 10 }) {
+export default function Page() {
+  const rows = 10;
+  const cols = 10;
   const [grid, setGrid] = useState([]);
   const [start, setStart] = useState(null);
   const [end, setEnd] = useState(null);
